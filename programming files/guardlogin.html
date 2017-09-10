@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guardlogin</title>
+    <style>
+
+
+
+        #wrapper{
+            
+        }
+       body{
+    background-image: url(img/security-guard-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+                
+#header{
+    height: 100px;
+    background-color:transparent;
+    text-align: center;
+    
+}
+#sony{
+    color:darkblue;
+    line-height: 3;
+}
+
+ 
+        
+        #container{
+            
+            height: 600px;
+            
+            
+            padding-left: 400px;
+            
+        }
+        #check{
+            color:blueviolet;
+        }
+
+#login-guard{
+    
+    width: 60%;
+    padding-left: px;
+    height: 550px;
+    background-color:#d1d1e0;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding-top: 40px;
+     
+}
+#login-guard > form > h1{
+    
+    text-align: left;
+    
+   color: black;;
+        }
+
+#login-guard > form{
+     margin-left: 40px;
+}
+#login-guard > form > input[type=text]{
+    
+    padding: 12px 1px;
+width: 478px;
+border-radius: 4px;
+color: #283e3e;
+background-color: white;
+border: solid white; 
+    
+}
+#login-guard > form > [type=password]{
+   
+     padding: 12px 1px;
+width: 478px;
+border-radius: 4px;
+color: #283e3e;
+background-color: white;
+border: solid white;
+}
+   #login-guard > form >  [type=submit]{
+padding: 12px 1px;
+width: 240px;
+border-radius: 4px;
+color: white;
+background-color:#3498db ;
+border: solid #3498db;
+    font-size: 20px;
+
+        }
+   #login-guard > form >  [type=button]{
+padding: 12px 1px;
+width: 240px;
+border-radius: 4px;
+color: white;
+background-color:#3498db ;
+border: solid #3498db;
+    font-size: 20px;
+
+        }
+        #admin{
+            margin-left: 175px;
+            
+        }
+    </style>
+</head>
+<body>
+   <div id="wrapper">
+   
+   <div id="header">
+         <h1 id="sony">ABC SECURITY COMPANY</h1>  
+       </div>
+       
+        
+             
+                   
+          <div id="container">
+           
+           <div id="login-guard">
+                <form > 
+                
+                 <h1 id="admin">GUARD</h1>
+                 <br><br><h3>Username</h3>
+                <input type="text" name="Username" placeholder="Username"><br><br>
+                <h3>Password</h3>
+                <input type="password" name="Password" placeholder="password"><br><br><br>
+                <input id="check" type="checkbox" checked="checked"> Remember me <br>
+                
+
+     <button onclick="location.href='recover.html'" type="button">
+   Recover</button>
+
+                 <input type="submit" value="Login">
+
+                
+               </form>
+               
+           </div>
+           
+      </div>
+   
+    </div> 
+</body>
+</html>
